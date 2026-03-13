@@ -2,7 +2,7 @@
 	By André Rinas, www.andrerinas.de
 	Documentation, www.simplelightbox.com
 	Available for use under the MIT License
-	Version 2.14.2
+	Version 2.14.3
 */
 body.hidden-scroll {
   overflow: hidden;
@@ -172,10 +172,8 @@ body.hidden-scroll {
 .sl-wrapper .sl-image .sl-caption {
   display: none;
   padding: 10px;
-/*  color: #fff;*/
-  color: #252525;
-/*  background: rgba(0, 0, 0, 0.8);*/
-  background: rgba(255, 255, 255, 1);
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
   font-size: 1rem;
   position: absolute;
   bottom: 0;

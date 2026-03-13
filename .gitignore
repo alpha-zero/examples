@@ -3,9 +3,11 @@
 *.ai
 *.db
 # other marked files
+*_private
 *.private.*
 *.afphoto
 *.afdesign
+*.afpub
 
 # ignore old files
 *.old.*

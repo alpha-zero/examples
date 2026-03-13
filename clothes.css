@@ -1,0 +1,52 @@
+/*IMPORT*/
+
+/*RESET**/
+
+html, body {margin: 0; padding: 0;}
+
+/*BODY***/
+
+body {background-color: #ffda53;}
+
+nav>a {
+    left: 1em; top: 1em;
+    padding: 1em 1.3em;
+    display: block;
+    position: fixed;
+    background:red;
+    border-radius: 50px;
+    aspect-ratio: 1/1;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    transform: rotate(-0.5turn);
+    transition: .6s transform;
+}
+nav>a:hover, nav>a:focus {
+    transform: rotate(-0.5turn) scale(5);
+    transition-duration: .15s;
+    transition-timing-function: ease-in;
+}
+
+header {
+    position: fixed;
+    font-size: 10em;
+    text-transform: uppercase;
+    text-justify: inter-character;
+    z-index: -1;
+    color: white;
+    line-height:.65em;
+    word-break: break-all;
+    font-family: 'palatino linotype', serif;
+    font-style:italic;
+    font-weight: 700;
+    text-align: justify;
+}
+
+    main { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
